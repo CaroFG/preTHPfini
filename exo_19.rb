@@ -5,8 +5,7 @@ while i <=49
   a.push("jean.dupont.#{i}@email.fr")
 end
 
-a.each_with_index do |item,index| if index < 50
+a.each_with_index do |item,index|
 next if index.even?
 puts item
   end
-end
